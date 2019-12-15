@@ -6,7 +6,7 @@ class Quiz extends Component {
 
     render() {
         return (
-        <div className='QuizQuestions'>{quizData.quiz_questions[0].instruction_text}</div>
+        <div><div className='QuizQuestion'>{quizData.quiz_questions[0].instruction_text}</div></div>
         );
     }
     constructor(props) {
